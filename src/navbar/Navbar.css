@@ -1,0 +1,87 @@
+/* General styling for the navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Logo styling */
+.logo {
+  margin-left: 30px;
+  width: 60px;
+}
+
+/* Dropdown button styling */
+.dropdown-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Navigation links styling */
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #00aaff;
+}
+
+.nav-links button {
+  background-color: #00aaff;
+  color: red;
+}
+
+/* Dropdown styling for smaller screens */
+@media (max-width: 768px) {
+  .dropdown-button {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: black;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+
+  .nav-links li {
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  .nav-links button {
+      width: 100%;
+      text-align: center;
+  }
+}

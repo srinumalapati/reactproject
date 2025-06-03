@@ -1,0 +1,60 @@
+/* General styling for the services container */
+.services-container {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Form styling with grey background */
+.services-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: grey; /* Background color applies only to the form */
+  padding: 20px; /* Adds padding for better spacing */
+  border-radius: 10px; /* Adds rounded corners for a modern look */
+}
+
+/* Input and select elements */
+.services-select,
+.services-input {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* General button styling */
+.services-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Ticket count display */
+.ticket-count {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Submit button styling */
+.services-submit {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.services-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Underline class for any text */
+.underline {
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+}

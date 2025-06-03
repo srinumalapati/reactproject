@@ -1,0 +1,138 @@
+.left {
+  position: absolute;
+  left: 9%;
+  top: 20%;
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  text-align: left;
+  color: red;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkgreen;
+}
+
+.right {
+  position: relative;
+  top: 20%;
+  left: 50%;
+  width: 40%;
+  height: auto;
+  text-align: center;
+}
+
+.metro-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttompage {
+  background-color: black;
+  background-size: cover;
+  color: aliceblue;
+  width: 100%;
+}
+
+.buttompage ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.buttompage ul p {
+  color: aquamarine;
+}
+
+.buttompage li {
+  margin-bottom: 10px;
+  color: red;
+  width: 60rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .left {
+      position: static;
+      width: 90%;
+      margin: 20px auto;
+      left: auto;
+      top: auto;
+  }
+
+  .right {
+      position: static;
+      width: 90%;
+      margin: 20px auto;
+      left: auto;
+      top: auto;
+  }
+
+  .buttompage ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .buttompage li {
+      width: auto;
+  }
+  .buttompage ul li.highlighted {
+    background-color: yellow;
+    color: black;
+    border: 2px solid red;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .left h1 {
+      font-size: 20px;
+  }
+
+  .left p {
+      font-size: 14px;
+  }
+
+  select, .button {
+      font-size: 14px;
+      padding: 8px;
+  }
+}

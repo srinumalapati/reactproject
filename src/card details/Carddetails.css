@@ -1,0 +1,91 @@
+.card-details {
+  margin: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin: 5px;
+  padding: 5px;
+  width: 100%; /* Added to make inputs take full width on smaller screens */
+}
+
+.form button {
+  margin: 5px;
+  padding: 5px 10px;
+  width: 100%; /* Added to make buttons take full width on smaller screens */
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: grey;
+}
+
+.table tr:nth-child(even) {
+  background-color: grey;
+  color: aqua;
+}
+
+.table button {
+  margin: 0 5px;
+  padding: 5px 5px;
+  background-color: red;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.getbutton {
+  margin-left: 20%;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .card-details {
+      margin: 10px;
+  }
+
+  .form {
+      margin-bottom: 15px;
+  }
+
+  .form input, .form button {
+      width: 100%; /* Ensure inputs and buttons take full width on smaller screens */
+  }
+
+  .getbutton {
+      margin-left: 0; /* Center align the button on smaller screens */
+  }
+}
+
+/* Media query for phones */
+@media (max-width: 480px) {
+  .card-details {
+      margin: 5px;
+  }
+
+  .form input, .form button {
+      font-size: 14px;
+      padding: 8px;
+  }
+
+  .table th, .table td {
+      padding: 8px;
+  }
+
+  .table button {
+      font-size: 14px;
+      padding: 8px;
+  }
+}

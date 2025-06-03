@@ -1,0 +1,69 @@
+/* General styling for the registration container */
+.registration-container {
+  margin: 50px auto;
+  max-width: 300px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: grey; /* Ensures background color applies only to the container */
+  background-size: cover;
+  border-radius: 10px;
+  padding: 40px; /* Optional: Adds padding for a better look */
+}
+
+/* Styling for the form title */
+.registration-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.registration-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+/* Label and input field styling */
+.registration-container label {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0); /* Correct color format */
+}
+
+.registration-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #0d0202;
+  border-radius: 10px;
+}
+
+/* Submit button styling */
+.registration-container button {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registration-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.registration-container .error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.c{
+  color:white;
+}
+.b{
+  color: red;
+}

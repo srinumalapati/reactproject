@@ -1,0 +1,17 @@
+body {
+      background-image: url("https://static.vecteezy.com/system/resources/previews/036/940/504/non_2x/ai-generated-train-bullet-train-electric-train-rail-bullet-rail-electric-rail-train-transparent-background-png.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
