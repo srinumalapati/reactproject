@@ -1,13 +1,19 @@
 # 🌟 React Project  
 
 🚀 A modern React.js project built with **Create React App**.  
-This project is designed to demonstrate a responsive, scalable, and easy-to-use React setup.  
+This project demonstrates a responsive, scalable, and easy-to-use React setup with clean UI and React best practices.  
 
 ---
 
 ## 📸 Preview  
 
-![App Screenshot](https://via.placeholder.com/1000x400.png?text=React+Project+Preview)  
+Here are some live screenshots of the project:  
+
+![App Screenshot 1](https://raw.githubusercontent.com/srinumalapati/reactproject/main/images/Screenshot%202025-08-21%20151422.png)  
+![App Screenshot 2](https://raw.githubusercontent.com/srinumalapati/reactproject/main/images/Screenshot%202025-08-21%20151456.png)  
+![App Screenshot 3](https://raw.githubusercontent.com/srinumalapati/reactproject/main/images/Screenshot%202025-08-21%20151531.png)  
+![App Screenshot 4](https://raw.githubusercontent.com/srinumalapati/reactproject/main/images/Screenshot%202025-08-21%20151600.png)  
+![App Screenshot 5](https://raw.githubusercontent.com/srinumalapati/reactproject/main/images/Screenshot%202025-08-21%20151627.png)  
 
 ---
 
